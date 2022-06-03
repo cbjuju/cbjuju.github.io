@@ -10,8 +10,24 @@
 <!-- symbols correctly in the browser. -->
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <meta name="description" content="" />
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async
+          src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+  </script>
 </head>
-<body>
-  Solid mechanics is about solid objects bending, stretching and twisting. Objects can behave as solids or liquids depending on the time scale of operation. Tectonic plates are solids to us, but have fluid behaviour over geological time scales.
+<body style="background-color : black; color : white">
+<!-- <body> -->
+<h1>Euler Bernoulli Beam Theory</h1>
+Possibly the simplest beam theory.
+<h2>Kinematical Assumptions</h2>
+<ul>
+    <li>Mid plane sees no strain.</li>
+    <li>Plane section perpendicular to the mid line before bending remain perpendicular after bending.</li>
+    <li>All strains and rotations are small.</li>
+</ul>
+<p>
+  When \(a \ne 0\), there are two solutions to \(ax^2 + bx + c = 0\) and they are
+  \[x = {-b \pm \sqrt{b^2-4ac} \over 2a}.\]
+</p>
 </body>
 </html>
