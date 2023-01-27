@@ -21,6 +21,20 @@
 Post describing how the program <a
 	href="https://github.com/vigneshwaranr/bd">bd</a> works. It is a convenient
 way to go back to one of the parent directories when you are deep in the
-directory structure.
+directory structure. This program is a shell script.
+<h2>Main functions</h2>
+The code functionality is logically divided into 3 functions :
+<ol>
+	<li>help_msg : Prints some text to help the user.</li>
+	<li>usage_error : Prints some text to report that the program has not been
+		used incorrectly and directs the user to the github site for
+		information on how to use the program.</li>
+	<li>newpwd : This function contains the main functionality of the
+		program.</li>
+</ol>
+
+The program execution starts at around line 56 and uses and if condition to
+check if condition to call one of usage_error or newpwd.
+
 </body>
 </html>
