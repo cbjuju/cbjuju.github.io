@@ -35,6 +35,18 @@ The code functionality is logically divided into 3 functions :
 
 The program execution starts at around line 56 and uses and if condition to
 check if condition to call one of usage_error or newpwd.
+<h2>newdpwd()</h2>
+This function stores the main functionality of the tool. It takes the name of
+the folder as input and returns the absolute path of the folder as output. This
+is done on a case by case basis using regular expressions. There are four
+cases corresponding to four possible values of the flag passed in from the
+command line :
+<ul>
+	<li> -s
+	<li> -si
+	<li> -?
+	<li> *
+</ul>
 
 <h1>Neovim</h1>
 To get to neovim API documentation, first bring up the help file. To open the
