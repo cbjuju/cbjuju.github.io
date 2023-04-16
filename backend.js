@@ -1,5 +1,2 @@
-function favoriteAnimal(animal) {
-   return animal + " is my favorite animal!"
- }
-
- console.log(favoriteAnimal('Chupacabra'))
+const btn = document.querySelector('#btn');
+btn.onclick = () => alert('Hello World');
